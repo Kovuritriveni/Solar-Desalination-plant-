@@ -1,49 +1,70 @@
-Solar Desalination Plant with PLC-Based Monitoring and Control
-🌍 Project Overview
-This project aims to address the global challenge of water scarcity through a sustainable, off-grid, and automated solar desalination system. It integrates solar thermal technology and PLC-based automation to convert saline or impure water into clean drinking water, making it suitable for deployment in rural, coastal, and arid regions.
+# 🌞 Solar Desalination Plant with PLC-Based Monitoring and Control
 
-⚙️ Key Features
-Solar Powered: Utilizes solar photovoltaic panels and a thermal heater to evaporate water using renewable energy.
+## 📘 Overview
 
-Thermal Desalination: Heat-induced evaporation and condensation eliminate salts and impurities.
+This project provides a sustainable and automated solution for purifying water using solar thermal energy and PLC-based automation. It is designed for off-grid, rural, and coastal areas where access to clean drinking water and electricity is limited.
 
-Multi-Stage Filtration: Involves sediment, carbon, RO, and post-carbon filters for enhanced water quality.
+The system combines **solar-powered desalination**, **thermal evaporation**, **multi-stage filtration**, and **Delta PLC control** to transform saline or impure water into potable water.
 
-PLC Automation: A Delta PLC ensures efficient monitoring and control of the entire purification process.
+---
 
-Off-Grid Capable: Operates independently with battery-backed solar power, ideal for areas without electricity.
+## ⚙️ Key Features
 
-Low Maintenance: Simple filter replacement and minimal manual intervention.
+- **Solar Powered**: Utilizes photovoltaic panels and a thermal heating chamber.
+- **Thermal Desalination**: Heats and evaporates water, leaving behind salts and impurities.
+- **Multi-Stage Filtration**: Includes sediment, pre-carbon, RO membrane, and post-carbon filters.
+- **PLC Automation**: Monitors and controls water flow, temperature, and pump operations.
+- **Battery Backup**: 12V rechargeable system enables off-grid operation.
+- **Low Maintenance**: Designed for minimal manual intervention and easy scalability.
 
-🧪 Working Principle
-Solar Collection: Sunlight is captured by solar panels and stored in a battery using MPPT charge control.
+---
 
-Heating & Evaporation: Stored energy powers a DC heating element to boil impure water.
+## 🧪 Working Principle
 
-Condensation: Steam is condensed into pure water, leaving behind salts and heavy metals.
+1. **Solar Collection**: Solar panels generate and store energy using an MPPT charge controller.
+2. **Heating & Evaporation**: DC-powered heating element vaporizes the impure water.
+3. **Condensation**: Vapor condenses on a cool surface into clean distilled water.
+4. **Filtration**: Condensed water passes through a 4-stage filtration system.
+5. **Automation**: PLC ensures continuous operation based on real-time sensor data.
 
-Filtration: The condensed water passes through multi-stage filters to remove remaining impurities.
+---
 
-Automation: A PLC automates water flow, heating, and system monitoring for reliable performance.
+## 💡 Technologies Used
 
-💡 Technologies Used
-Solar Photovoltaic Panels
+- Solar Photovoltaic Panel (12V)
+- MPPT Charge Controller
+- Delta DVP Slim PLC
+- WPLSoft V2.52 (for PLC programming)
+- Multi-stage Filtration Unit (Sediment, RO, Carbon Filters)
+- DC Heating Chamber and Water Pump
 
-Multi-Stage Water Filtration (RO, Carbon, Sediment)
+---
 
-DC Heating Element & Battery
+## 📈 Results
 
-Delta DVP Slim PLC
+- **Output**: 5–10 liters of clean water per day under full sunlight
+- **Power**: Fully operational using solar energy and a 12V battery
+- **Performance**: Reliable, stable operation with low energy consumption
 
-WPL Soft V2.52 for PLC Programming
+---
 
-📈 Results
-Water Output: 5–10 liters/day under full sunlight
+## ✅ Conclusion
 
-Energy Source: 100% solar-powered with 12V battery storage
+This system demonstrates a **practical, renewable, and automated** approach to clean water production. Its integration of **solar energy and PLC control** makes it ideal for remote or energy-scarce environments, offering a scalable model for sustainable water purification.
 
-Operation: Fully functional prototype with automated performance
+---
 
-📌 Conclusion
-This solar desalination system is a cost-effective, energy-efficient, and scalable solution for producing potable water using renewable energy and automation. It is ideal for decentralized, remote, or resource-limited areas, offering a promising step toward sustainable water management.
+## 🧑‍💻 Authors
 
+- Kovuri Triveni
+- Kolleboina Anusha
+- Ghanta Jaya Keerthana
+- Shaik Sharmila
+
+> Guided by Mrs. K. Mrudula, Assistant Professor, Department of EIE, VR Siddhartha Engineering College
+
+---
+
+## 📄 License
+
+This project is part of the academic curriculum and is intended for educational and non-commercial use.
